@@ -10,6 +10,7 @@ import PropsWithClass from './PropWithClass';
 import GetValue from './GetValue';
 import HideShowElement from './HideShowElement';
 import FormDemo from './FormDemo';
+import Profile from './Profile'
 function App() {
   let data='Akhil';
   function apple(){
@@ -43,7 +44,8 @@ const [name,setName]=useState("Akhil")
 
 {/* <GetValue/> */}
 {/* <HideShowElement /> */}
-<FormDemo/>
+      {/* <FormDemo /> */}
+      <Profile />
     </div>
   );
 }
